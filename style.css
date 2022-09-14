@@ -1,5 +1,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 .header_bar {
@@ -18,4 +20,8 @@ body {
 
 .logo {
     height: 50px;
+}
+
+.footer {
+    margin-top: auto;
 }
