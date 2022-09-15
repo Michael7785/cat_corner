@@ -92,3 +92,13 @@ fieldset {
     padding: 20px;
     border-radius: 10px;
 }
+
+legend {
+    font-size: 20px;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    
+}
