@@ -16,18 +16,33 @@
             </ul>
         </div>
         <div class="main">
-            <p>This is the main part of the page. Needs to have 1 fieldset, 3 inputs (2 text, 1 checkbox), 1 text area, appropriate labels for the above, and 1 button.</p>
-            <form method="post">
+
+            <form class="form" method="post">
                 <fieldset>
                     <legend>Contact the Cat Corner!</legend>
-                    <label for="name">Name:</label>
-                    <input type="text" id="name">
 
-                    <label for="email">Email:</label>
-                    <input type="email" id="email">
+                    <div>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name">
+                    </div>
 
-                    <input type="checkbox" id="newsletter">
-                    <label for="newsletter">Sign up for our newsletter!</label>
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email">
+                    </div>
+
+                    <div>
+                        <label for="comments">Comments:</label>
+                        <textarea id="comments" rows="5"></textarea>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" id="newsletter">
+                        <label for="newsletter">Sign up for our newsletter!</label>
+                    </div>
+
+                    <button type="submit">Submit</button>
+
                 </fieldset>
             </form>
         </div>
