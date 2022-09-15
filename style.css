@@ -142,3 +142,27 @@ button {
     font-size: 16px;
     font-weight: normal;
 }
+
+.cat_gallery {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.cat_profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cat_profile img {
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.cat_profile p {
+    margin-top: 2px;
+    font-weight: bold;
+    font-size: 20px;
+}
