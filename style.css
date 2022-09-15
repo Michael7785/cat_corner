@@ -100,5 +100,11 @@ legend {
 .input {
     display: flex;
     flex-direction: column;
-    
+
+}
+
+.name_email {
+    display: flex;
+    gap: 20px;
+    flex-grow: 1;
 }
